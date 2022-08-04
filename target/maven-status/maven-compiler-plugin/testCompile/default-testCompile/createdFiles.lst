@@ -1,0 +1,8 @@
+hn\com\tigo\josm\orchestrator\da\driver\test\AbstractTest.class
+hn\com\tigo\josm\orchestrator\da\driver\test\AllTest.class
+hn\com\tigo\josm\orchestrator\da\driver\test\AccountDeleteOperationTest.class
+hn\com\tigo\josm\orchestrator\da\driver\test\CreateIncluAndExcluOperationTest.class
+hn\com\tigo\josm\orchestrator\da\driver\test\EjbContainerContext.class
+hn\com\tigo\josm\orchestrator\da\driver\test\GetMPOperationTest.class
+hn\com\tigo\josm\orchestrator\da\driver\test\UpdateMPOperationTest.class
+hn\com\tigo\josm\orchestrator\da\driver\test\CreateMPOperationTest.class
