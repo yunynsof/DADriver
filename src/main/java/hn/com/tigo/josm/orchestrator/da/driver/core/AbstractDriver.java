@@ -17,13 +17,14 @@ import hn.com.tigo.josm.common.exceptions.AdapterException;
 import hn.com.tigo.josm.common.exceptions.HttpClientException;
 import hn.com.tigo.josm.common.exceptions.enumerators.AdapterErrorCode;
 
+
 /**
  * AbstractDriver.
  *
- * @author Yuny Rene Rodriguez Perez 
+ * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
  * @version 1.0.0
- * @see java
- * @since 06-09-2022 03:49:25 PM 2022
+ * @see 
+ * @since 08-09-2022 05:41:26 PM 2022
  */
 public abstract class AbstractDriver {
 
