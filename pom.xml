@@ -10,7 +10,6 @@
 	<properties>
 		<url.archiva>192.168.159.49</url.archiva>
 		<url.cbs>192.168.189.15</url.cbs>
-		<!-- <url.sonar>192.168.159.48</url.sonar> -->
 		<openejb.version>4.7.4</openejb.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
