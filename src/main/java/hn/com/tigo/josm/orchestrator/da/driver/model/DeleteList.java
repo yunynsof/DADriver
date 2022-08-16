@@ -1,12 +1,12 @@
 package hn.com.tigo.josm.orchestrator.da.driver.model;
 
 /**
- * DeleteList.
+ * DeleteList This model class is for the DeleteList object.
  *
- * @author Yuny Rene Rodriguez Perez 
+ * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
  * @version 1.0.0
- * @see java
- * @since 06-09-2022 03:47:51 PM 2022
+ * @see 
+ * @since 08-16-2022 05:32:57 AM 2022
  */
 public class DeleteList {
 

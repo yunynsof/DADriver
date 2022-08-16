@@ -3,12 +3,12 @@ package hn.com.tigo.josm.orchestrator.da.driver.model;
 import java.util.List;
 
 /**
- * AccountDeleteInputModel.
+ * AccountDeleteInputModel This model class is for the Account Delete object.
  *
- * @author Yuny Rene Rodriguez Perez 
+ * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
  * @version 1.0.0
- * @see java
- * @since 06-09-2022 03:48:45 PM 2022
+ * @see 
+ * @since 08-16-2022 05:31:04 AM 2022
  */
 public class AccountDeleteInputModel {
 

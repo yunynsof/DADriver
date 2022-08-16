@@ -14,12 +14,12 @@ import hn.com.tigo.josm.orchestrator.da.driver.model.GetMPInputModel;
 import hn.com.tigo.josm.orchestrator.da.driver.util.DAConstantsDriver;
 
 /**
- * GetMPOperation.
+ * GetMPOperation This class contains the operational logic of the GetMP task.
  *
- * @author Yuny Rene Rodriguez Perez 
+ * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
  * @version 1.0.0
- * @see java
- * @since 06-09-2022 03:51:02 PM 2022
+ * @see 
+ * @since 08-16-2022 05:36:59 AM 2022
  */
 public class GetMPOperation extends AbstractDriver {
 
@@ -45,15 +45,14 @@ public class GetMPOperation extends AbstractDriver {
 	public TaskResponseType execute() throws AdapterException {
 		try {
 			JSONObject jsonObject;
-			String url_final = this.endpoint + DAConstantsDriver.METHOD_GETMP + "/"
-					+ DAConstantsDriver.PARAM_REQ_GETMP1;
+			String url_final = this.endpoint + DAConstantsDriver.METHOD_GETMP;
 
 			if (this.request != null) {
 
 				if (this.request.getAcctCode() != null) {
-					url_final = url_final + "/" + this.request.getAcctCode();
+					url_final = url_final + "/"	+ DAConstantsDriver.PARAM_REQ_GETMP1+ "/" + this.request.getAcctCode();
 				} else {
-					url_final = url_final + "/" + this.request.getPrimaryIdentity();
+					url_final = url_final + "/" + DAConstantsDriver.PARAM_REQ_GETMP2+ "/" + this.request.getPrimaryIdentity();
 				}
 				if (this.request.getGetCard() != null) {
 					url_final = url_final + "?getCard=" + this.request.getGetCard();

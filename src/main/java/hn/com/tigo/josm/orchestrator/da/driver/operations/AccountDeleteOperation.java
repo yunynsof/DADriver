@@ -1,27 +1,24 @@
 package hn.com.tigo.josm.orchestrator.da.driver.operations;
 
-import org.json.JSONException;
 import org.json.JSONObject;
-
 import com.google.gson.Gson;
 
 import hn.com.tigo.josm.common.adapter.dto.ParameterArray;
 import hn.com.tigo.josm.common.adapter.dto.ParameterType;
 import hn.com.tigo.josm.common.adapter.dto.TaskResponseType;
 import hn.com.tigo.josm.common.exceptions.AdapterException;
-import hn.com.tigo.josm.common.exceptions.HttpClientException;
 import hn.com.tigo.josm.common.exceptions.enumerators.AdapterErrorCode;
 import hn.com.tigo.josm.orchestrator.da.driver.core.AbstractDriver;
 import hn.com.tigo.josm.orchestrator.da.driver.model.AccountDeleteInputModel;
 import hn.com.tigo.josm.orchestrator.da.driver.util.DAConstantsDriver;
 
 /**
- * AccountDeleteOperation.
+ * AccountDeleteOperation This class contains the operational logic of the task Account Delete.
  *
- * @author Yuny Rene Rodriguez Perez 
+ * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
  * @version 1.0.0
- * @see java
- * @since 06-09-2022 03:50:44 PM 2022
+ * @see 
+ * @since 08-16-2022 05:34:09 AM 2022
  */
 public class AccountDeleteOperation extends AbstractDriver {
 

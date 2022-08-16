@@ -1,12 +1,12 @@
 package hn.com.tigo.josm.orchestrator.da.driver.model;
 
 /**
- * CreateIncluExcluInputModel.
+ * CreateIncluExcluInputModel This model class is used for the CreateIncluExclu object.
  *
- * @author Yuny Rene Rodriguez Perez 
+ * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
  * @version 1.0.0
- * @see java
- * @since 06-09-2022 03:48:54 PM 2022
+ * @see 
+ * @since 08-16-2022 05:31:26 AM 2022
  */
 public class CreateIncluExcluInputModel {
 

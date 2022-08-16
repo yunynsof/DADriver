@@ -15,12 +15,12 @@ import hn.com.tigo.josm.orchestrator.da.driver.model.CreateMPInputModel;
 import hn.com.tigo.josm.orchestrator.da.driver.util.DAConstantsDriver;
 
 /**
- * UpdateMPOperation.
+ * UpdateMPOperation This class contains the operational logic of the UpdateMP task.
  *
- * @author Yuny Rene Rodriguez Perez 
+ * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
  * @version 1.0.0
- * @see java
- * @since 06-09-2022 03:51:07 PM 2022
+ * @see 
+ * @since 08-16-2022 05:37:25 AM 2022
  */
 public class UpdateMPOperation extends AbstractDriver {
 
@@ -65,6 +65,13 @@ public class UpdateMPOperation extends AbstractDriver {
 		}
 	}
 
+	/**
+	 * Gets the parameter.
+	 *
+	 * @param value the value
+	 * @param constants the constants
+	 * @return the parameter
+	 */
 	private ParameterType getParameter(final String value, final String constants) {
 
 		ParameterType parameterResponse = new ParameterType();

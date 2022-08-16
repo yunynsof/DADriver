@@ -11,13 +11,14 @@ import hn.com.tigo.josm.common.http.GetMethod;
 
 import javax.ws.rs.core.Response;
 
+
 /**
- * HttpConnectorGet.
+ * HttpConnectorGet This class is used to call the get method from the commons project.
  *
- * @author Yuny Rene Rodriguez Perez 
+ * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
  * @version 1.0.0
- * @see java
- * @since 06-09-2022 03:49:40 PM 2022
+ * @see 
+ * @since 08-16-2022 05:29:37 AM 2022
  */
 public class HttpConnectorGet extends GetMethod<String> {
 

@@ -17,12 +17,14 @@ import hn.com.tigo.josm.common.exceptions.AdapterException;
 import hn.com.tigo.josm.common.exceptions.HttpClientException;
 import hn.com.tigo.josm.common.exceptions.enumerators.AdapterErrorCode;
 
+
 /**
- * AbstractDriver.
+ * AbstractDriver This abstract class contains properties and features for DADriver.
  *
- * @author Yuny Rene Rodriguez Perez 
- * @version 1.0.0
- * @since 06-09-2022 03:49:25 PM 2022
+ * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
+ * @version  1.0.0
+ * @see 
+ * @since 08-15-2022 08:47:34 PM 2022
  */
 public abstract class AbstractDriver {
 
