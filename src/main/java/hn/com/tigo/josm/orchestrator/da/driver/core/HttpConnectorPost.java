@@ -13,9 +13,8 @@ import hn.com.tigo.josm.orchestrator.da.driver.util.DAConstantsDriver;
 /**
  * HttpConnectorPost This class is used to call the post method from the commons project.
  *
- * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
- * @version 1.0.0
- * @see 
+ * @author Yuny Rene Rodriguez Perez {@literal<mailto: yrodriguez@hightech-corp.com />}
+ * @version  1.0.0
  * @since 08-16-2022 05:29:55 AM 2022
  */
 public class HttpConnectorPost extends PostMethod<String> {

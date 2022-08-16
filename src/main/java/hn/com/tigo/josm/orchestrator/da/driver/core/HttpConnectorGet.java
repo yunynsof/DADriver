@@ -15,9 +15,8 @@ import javax.ws.rs.core.Response;
 /**
  * HttpConnectorGet This class is used to call the get method from the commons project.
  *
- * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
- * @version 1.0.0
- * @see 
+ * @author Yuny Rene Rodriguez Perez {@literal<mailto: yrodriguez@hightech-corp.com />}
+ * @version  1.0.0
  * @since 08-16-2022 05:29:37 AM 2022
  */
 public class HttpConnectorGet extends GetMethod<String> {

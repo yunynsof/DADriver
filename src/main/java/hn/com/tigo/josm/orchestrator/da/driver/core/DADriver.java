@@ -11,9 +11,8 @@ import hn.com.tigo.josm.common.exceptions.AdapterException;
 /**
  * DADriver This class is used for driver instance and endpoint setup.
  *
- * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
- * @version 1.0.0
- * @see 
+ * @author Yuny Rene Rodriguez Perez {@literal<mailto: yrodriguez@hightech-corp.com />}
+ * @version  1.0.0
  * @since 08-15-2022 08:50:55 PM 2022
  */
 public class DADriver {

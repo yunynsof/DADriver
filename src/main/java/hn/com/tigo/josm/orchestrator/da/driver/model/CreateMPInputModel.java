@@ -3,9 +3,8 @@ package hn.com.tigo.josm.orchestrator.da.driver.model;
 /**
  * CreateMPInputModel This model class is used for the CreateMP object.
  *
- * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
- * @version 1.0.0
- * @see 
+ * @author Yuny Rene Rodriguez Perez {@literal<mailto: yrodriguez@hightech-corp.com />}
+ * @version  1.0.0 
  * @since 08-16-2022 05:32:02 AM 2022
  */
 public class CreateMPInputModel {

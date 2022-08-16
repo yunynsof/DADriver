@@ -5,9 +5,8 @@ import java.io.Serializable;
 /**
  * GetMPInputModel This model class is for the GetMP object.
  *
- * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
- * @version 1.0.0
- * @see 
+ * @author Yuny Rene Rodriguez Perez {@literal<mailto: yrodriguez@hightech-corp.com />}
+ * @version  1.0.0
  * @since 08-16-2022 05:33:27 AM 2022
  */
 public class GetMPInputModel implements Serializable {

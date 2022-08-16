@@ -17,9 +17,8 @@ import hn.com.tigo.josm.orchestrator.da.driver.util.DAConstantsDriver;
 /**
  * CreateMPOperation This class contains the operational logic of the CreateMP task.
  *
- * @author Yuny Rene Rodriguez Perez <mailto: yrodriguez@hightech-corp.com />
- * @version 1.0.0
- * @see 
+ * @author Yuny Rene Rodriguez Perez {@literal<mailto: yrodriguez@hightech-corp.com />}
+ * @version  1.0.0
  * @since 08-16-2022 05:35:48 AM 2022
  */
 public class CreateMPOperation extends AbstractDriver {
